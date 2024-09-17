@@ -1,109 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Personal Portfolio" />
-    <meta name="author" content="Kelvin S. Zolotareff" />
-    <title>Kelvin S. Zolotareff</title>
-    <link rel="icon" type="image/png" href="assets/KZ (1).png"/>
-    <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@600;700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
-<body id="page-top">
-    <h1 class="display-3 fw-bolder text-glow">Under Construction...</h1>
-    <!-- Navigation
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom" id="mainNav">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#page-top">KZ</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Header>
-    <header id="header" class="section-custom header-custom">
-        <div class="container text-center">
-            <h1 class="display-3 fw-bolder text-glow">Welcome to My Portfolio</h1>
-            <p class="lead text-light">A showcase of my skills and projects as a .NET Developer</p>
-            <a class="btn btn-lg btn-light mt-4" href="#projects">Explore Projects</a>
-        </div>
-    </header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
 
-    <!-- About section>
-    <section id="about" class="section-custom">
-        <div class="container text-center">
-            <h2>About Me</h2>
-            <p class="lead">I am a passionate software developer with a focus on .NET technologies.</p>
-            <p>I specialize in creating impactful digital solutions using C#, .NET Framework, and SQL Server. My experience includes developing web applications and systems that enhance business operations and drive innovation.</p>
-            <img src="https://via.placeholder.com/800x400" alt="About me image" class="img-fluid mt-4">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- FontAwesome for icons -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ 
+   <link rel="stylesheet" href="css/styles.css">
+ </head>
+ <body>
+    
+   <div class="container-fluid vh-100 d-flex p-2">
+     <!-- Left Sidebar -->
+     <div class="sidebar d-flex flex-column align-items-center text-white p-3">
+       <div class="profile-pic mb-4">
+         <img src="assets/profile.jpg" alt="My Photo" class="rounded-circle border border-3" width="150" height="150">
+       </div>
+       <p>Kelvin S. Zolotareff</p>
+       <div class="tech text-center">
+       <div class="col">
+        <img src="https://img.shields.io/badge/-C%23-028c00?style=shadow&logo=c-sharp&logoColor=black" alt="C#"/>
+        <img src="https://img.shields.io/badge/-.NET-5c048f?style=flat&logo=.netcore&logoColor=white" alt=".NET"/>
+        <img src="https://img.shields.io/badge/Web%20Developer-5c048f?style=flat&logo=entity-framework&logoColor=white" alt="Web Developer"/>
+        <img src="https://img.shields.io/badge/-SQL%20Server-db0000?style=shadow&logo=c-sharp&logoColor=black" alt="SQL Server"/>
         </div>
-    </section>
-
-    <!-- Projects section>
-    <section id="projects" class="section-custom">
-        <div class="container text-center">
-            <h2>My Projects</h2>
-            <p class="lead">Here are some of the projects I've worked on recently.</p>
-            <div class="row">
-                <div class="col-md-4 project-item">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1" class="card-img-top">
-                        <div class="card-body">
-                            <h4 class="card-title">Project One</h4>
-                            <p class="card-text">A comprehensive .NET application designed to streamline business processes and improve efficiency.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 project-item">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 2" class="card-img-top">
-                        <div class="card-body">
-                            <h4 class="card-title">Project Two</h4>
-                            <p class="card-text">An innovative web-based solution built with ASP.NET Core, offering a seamless user experience and robust functionality.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 project-item">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 3" class="card-img-top">
-                        <div class="card-body">
-                            <h4 class="card-title">Project Three</h4>
-                            <p class="card-text">A dynamic application utilizing SQL Server for efficient data management and reporting, enhancing decision-making processes.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col p-1">
+        <img src="https://img.shields.io/badge/-Git-db0000?style=flat&logo=&logoColor=white" alt="Git"/>
+        <img src="https://img.shields.io/badge/Azure-0000FF?style=flat&logo=MVC&logoColor=white" alt="Azure"/>
+        <img src="https://img.shields.io/badge/IoT_Enthusiast-0000FF?style=flat&logo=&logoColor=white" alt="IoT Enthusiast"/>
         </div>
-    </section>
-
-    <!-- Contact section>
-    <section id="contact" class="section-custom">
-        <div class="container contact-content text-center">
-            <h2>Contact Me</h2>
-            <p class="lead">Feel free to reach out for collaborations or just a friendly chat.</p>
-            <p>If you're interested in working with me or want to discuss a project, don't hesitate to get in touch. I'm always open to new opportunities and connections.</p>
-            <a href="mailto:your.email@example.com" class="btn btn-lg btn-light mt-4">Get in Touch</a>
+    </div>
+       <nav class="menu d-flex flex-column justify-content-center">
+    
+         <ul class="nav flex-column text-center">
+           <li class="nav-item mb-2">
+             <a href="#" data-section="about" class="nav-link menu-link active">
+               <i class="fas fa-user"></i> About Me
+             </a>
+           </li>
+           <li class="nav-item mb-2">
+             <a href="#" data-section="projects" class="nav-link menu-link">
+               <i class="fas fa-laptop-code"></i> Projects
+             </a>
+           </li>
+           <li class="nav-item">
+            <a href="#" target="_blank" class="nav-link resume">
+              <i class="fas fa-download"></i> Resume
+            </a>
+          </li>
+         </ul>
+       </nav>
+       <div class="col">
+        <li class="">
+            <a href="mailto:kelvinzolotareff@gmail.com" target="_blank" data-section="Mail" class="contacts mail">
+              <i class="fas fa-envelope"></i> 
+              <a href="https://www.linkedin.com/in/kelvinzolotareff/" data-section="linkedin" target="_blank" class="contacts linkedin">
+             <i class="fa-brands fa-linkedin"></i> 
+             <a href="https://github.com/KelvinZolotareff" data-section="github" target="_blank" class="contacts github">
+             <i class="fa-brands fa-github"></i> 
+            </a>
+          </li>
         </div>
-    </section>
-
-    <!-- Footer>
-    <footer class="py-2 footer-custom">
-        <div class="container text-center">
-            <p class="m-0 text-white">Copyright &copy; Kelvin S. Zolotareff 2024</p>
-        </div>
-    </footer>-->
-
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+    </div>      
+     <!-- Right Content Area -->
+     <div class="content text-white rounded">
+       <section id="about" class="section active">
+         <h1> 👨‍💻 About Me</h1><br>
+         <p>With over 5 years of experience in C# and .NET Framework development, I have worked on and supported web applications that impact more than 400 client companies. I’ve been part of key projects, contributing to scalable and reliable solutions.<br>
+            In my free time, I enjoy exploring engineering, robotics, and IoT projects using Arduino, Raspberry Pi and other technologies, as well as developing 2D/3D indie games with Unity using C#.
+        </p>
+       </section>
+       <section id="projects" class="section">
+         <h1>🏆 Projects</h1><br>
+            <p><strong>AI Recruitment Analysis:</strong> Integrated AI analysis into the recruitment process, improving selection accuracy and efficiency.</p>
+            <p><strong>Employee Relocation System:</strong> Developed a system to streamline employee relocation after contract termination, optimizing talent management and reducing turnover.</p>
+            <p><strong>Atento AI Studio:</strong> Contributed to the development of Atento AI Studio, a platform integrating AI-driven solutions to enhance decision-making and automate processes across departments.</p>
+       </section>
+       <section id="contact" class="section">
+         <h1>Contact</h1>
+         <p>This is the Contact section. You can add your contact information here.</p>
+       </section>
+     </div>
+   </div>
+   <!-- Bootstrap JS and Popper.js (Optional but recommended for Bootstrap features) -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+ 
+   <!-- JavaScript to handle menu interaction -->
+   <script src="js/scripts.js">
+     
+   </script>
+ </body>
+ </html>
