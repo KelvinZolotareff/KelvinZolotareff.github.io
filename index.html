@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kelvin S. Zolotareff</title>
-
+  
    <!-- Bootstrap CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
    <!-- FontAwesome for icons -->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
- 
+   
+   <link rel="icon" type="png" href="./assets/KZ.png">
+
    <link rel="stylesheet" href="./css/styles.css">
  </head>
  <body>
@@ -37,18 +39,23 @@
        <nav class="menu d-flex flex-column justify-content-center">
     
          <ul class="nav flex-column text-center">
-           <li class="nav-item mb-2">
+           <li class="nav-item mb-1">
              <a href="#" data-section="about" class="nav-link menu-link active">
                <i class="fas fa-user"></i> About Me
              </a>
            </li>
-           <li class="nav-item mb-2">
+           <li class="nav-item mb-1">
              <a href="#" data-section="projects" class="nav-link menu-link">
                <i class="fas fa-laptop-code"></i> Projects
              </a>
            </li>
-           <li class="nav-item">
-            <a href="#" target="_blank" class="nav-link resume">
+           <li class="nav-item mb-1">
+            <a href="#" data-section="experience" class="nav-link menu-link">
+              <i class="fas fa-briefcase"></i> Experience
+            </a>
+          </li>
+           <li class="nav-item p-2">
+            <a href="./assets/KelvinZolotareffCV.pdf" target="_blank" class="nav-link resume">
               <i class="fas fa-download"></i> Resume
             </a>
           </li>
@@ -67,22 +74,43 @@
         </div>
     </div>      
      <!-- Right Content Area -->
-     <div class="content text-white rounded">
-       <section id="about" class="section active">
-         <h1> 👨‍💻 About Me</h1><br>
-         <p>With over 5 years of experience in C# and .NET Framework development, I have worked on and supported web applications that impact more than 400 client companies. I’ve been part of key projects, contributing to scalable and reliable solutions.<br>
-            In my free time, I enjoy exploring engineering, robotics, and IoT projects using Arduino, Raspberry Pi and other technologies, as well as developing 2D/3D indie games with Unity using C#.
-        </p>
-       </section>
+      <div class="content text-white rounded align-items-center">
+        <section id="about" class="section active">
+          <div class="About">
+                <h1>👨‍💻 Hi, i'm Kelvin Silva Zolotareff</h1><br>
+                <p>
+                  With over <strong>5 years of experience</strong>, I specialize in developing robust web applications using <strong>C#</strong> and the <strong>.NET Framework</strong>, playing a key role in delivering scalable solutions across diverse projects that impacted more than <strong>300 client companies</strong>.
+                  <br><br>
+                  Driven by curiosity, I continually explore new technologies and approaches, diving into areas like <strong>IoT</strong>, <strong>cloud architecture</strong>, and <strong>AI</strong>. This curiosity fuels my ability to approach complex challenges with <strong>creative problem-solving</strong> and innovation.
+                  <br><br>
+                  Outside of work, I enjoy hands-on experimentation with robotics, engineering, and <strong>IoT devices</strong>, working with Arduino, Raspberry Pi, among other technologies. I also engage in indie game development using Unity with <strong>C#</strong>.
+                </p>
+              </div>
+        </section>
+        
        <section id="projects" class="section">
-         <h1>🏆 Projects</h1><br>
+         <h1>🏆 Key Projects</h1><br>
             <p><strong>AI Recruitment Analysis:</strong> Integrated AI analysis into the recruitment process, improving selection accuracy and efficiency.</p>
             <p><strong>Employee Relocation System:</strong> Developed a system to streamline employee relocation after contract termination, optimizing talent management and reducing turnover.</p>
             <p><strong>Atento AI Studio:</strong> Contributed to the development of Atento AI Studio, a platform integrating AI-driven solutions to enhance decision-making and automate processes across departments.</p>
        </section>
-       <section id="contact" class="section">
-         <h1>Contact</h1>
-         <p>This is the Contact section. You can add your contact information here.</p>
+       <section id="experience" class="section">
+         <h1>🚀 My carrer experience</h1><br>
+         <p>
+        <strong>Analyst Programmer</strong> at <strong>Atento</strong> | Feb 2022 - Present | Brazil, Remote<br><br>
+        • Develop and enhance web applications using C#, .NET and SQL Server.<br>
+        Responsible for managing the development evolution of the company's global recruitment and candidate selection system.<br>
+
+        - Contributed to the integration of the company’s first AI model, designed to assist both employees and clients. Significantly improving candidate selection efficiency.
+        </p>
+        <p>
+        <strong>Programming Intern</strong> at <strong>Atento</strong> | Mar 2020 - Dec 2021 | Brazil, Remote<br><br>
+        • Assisted the corporative developers team with daily tasks, gaining valuable knowledge while developing solutions for both short-and long-term problems.
+       <br>- Rotated across various departments and technologies, such as C#, Java, ASP.NET, .NET Core, SQL server and Azure, enhancing and refining both technical skills and soft skills.
+      </p>
+      <p>
+        <strong>Bachelor’s Degree in Information Systems</strong> from <strong>UNIESP</strong> | 2018 - 2021
+      </p>
        </section>
      </div>
    </div>
